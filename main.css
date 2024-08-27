@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    font-family: "EB Garamond", serif;
+}
+
+header {
+    font-size: 24px;
+    padding: 32px 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+header li {
+    display: inline;
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header li a {
+    color: rgb(170, 164, 156);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
