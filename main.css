@@ -11,7 +11,7 @@ form button {
     font-family: "EB Garamond", serif;
     font-weight: bold;
 }
-
+/* Fonte do corpo da pagina e formulario */
 body, input, textarea {
     font-family: "EB Garamond", serif;
 }
@@ -53,7 +53,7 @@ section .container {
 }
 
 .sotc-simbol {
-    width: 25%;
+    width: 35%;
     margin-right: 32px;
 }
 
@@ -87,6 +87,14 @@ section {
 section p {
     margin-bottom: 8px;
     font-size: 24px;
+}
+
+.characters-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .social-links img {
