@@ -9,7 +9,8 @@ body {
 }
 /* Fonte do cabeçalho e titulo de sessão sobre */
 header,
-section h2 {
+section h2,
+section h3 {
     font-family: "EB Garamond", serif;
     font-weight: bold;
 }
