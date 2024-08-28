@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
-header {
+body {
+    background-color: rgb(255, 255, 255);
+}
+/* Fonte do cabeçalho e titulo de sessão sobre */
+header,
+section h2 {
     font-family: "EB Garamond", serif;
+    font-weight: bold;
 }
 
 header {
@@ -32,9 +38,47 @@ header li a {
     width: 100%;
     margin: 0 auto;
 }
-
-header .container {
+/* Posicionamento do cabeçalho e sessões */
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.sotc-simbol {
+    width: 25%;
+    margin-right: 32px;
+}
+
+.brands-list img {
+    height: 24px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 32px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+
+section {
+    color: rgb(0, 0, 0);
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: 24px;
 }
