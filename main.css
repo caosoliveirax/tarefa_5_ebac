@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
 /* Fonte do cabeçalho e titulo de sessão sobre */
 header,
 section h2,
@@ -91,10 +99,15 @@ section p {
 
 .characters-list {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+}
+
+.characters-list h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 .social-links img {
