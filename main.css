@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Ajustes no corpo da pagina */
 body {
     display: flex;
     flex-direction: column;
@@ -108,6 +108,15 @@ section p {
     margin-bottom: 20px;
     text-align: center;
     width: 100%;
+}
+
+.card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .social-links img {
