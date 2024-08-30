@@ -105,7 +105,8 @@ section p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+    background-color: #ffffff;
 }
 
 .characters-list h2 {
@@ -115,12 +116,59 @@ section p {
 }
 
 .card {
-    flex: 0 0 30%;
-    margin-bottom: 20px; 
-    background-color: #fafafa;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 25%;
+    padding: 10px;
+    margin: 0 0 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
     text-align: center;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    background-color: #ffe6002a;
+    transition-duration: 500ms;
+    transform: scale(1.05);
+}
+
+.card:hover:nth-child(3) {
+    background-color: #ff00002c;
+    transition-duration: 500ms;
+    transform: scale(1.05);
+}
+
+.card:hover:nth-child(4) {
+    background-color: #0040ff25;
+    transition-duration: 500ms;
+    transform: scale(1.05);
+}
+
+.card:hover:nth-child(5) {
+    background-color: #008d0742;
+    transition-duration: 500ms;
+    transform: scale(1.05);
+}
+
+.card:hover:nth-child(6) {
+    background-color: #7700ff36;
+    transition-duration: 500ms;
+    transform: scale(1.05);
+}
+
+.card:hover:nth-child(7) {
+    background-color: #00000070;
+    transition-duration: 500ms;
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 350px;
+}
+
+.card a {
+    color: #000000;
+    text-decoration: none;
 }
 
 .social-links img {
