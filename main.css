@@ -28,7 +28,7 @@ header {
     font-size: 40px;
     padding: 10px 0;
     background-color: #020202;
-    color: #EFE9E7;
+    color: #F0E2D1;
 }
 
 header li {
@@ -46,7 +46,7 @@ header li a {
 body,
 main,
 section {
-    background-color: #EFE9E7;
+    background-color: #FAF5F0;
 }
 
 main {
@@ -102,7 +102,7 @@ section p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    background-color: #EFE9E7;
+    background-color: #F5ECE0;
 }
 
 .characters-list h2 {
@@ -125,7 +125,7 @@ section p {
     border-width: 1px;
     border-radius: 20px;
     text-align: center;
-    background-color: #EFE9E7;
+    background-color: #F5ECE0;
 }
 
 .card:hover {
@@ -235,4 +235,11 @@ input, form textarea{
 
 input:focus, form textarea:focus{
 	box-shadow: 0 0 0 1px #000000;
+}
+
+footer {
+    background-color: #020202;
+    color: #F5ECE0;
+    padding: 16px 0;
+    text-align: center;
 }
